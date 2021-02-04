@@ -1,0 +1,35 @@
+.loader {
+  width: 30px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loader span {
+  --time: 0.7s;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: steelblue;
+  animation: blink var(--time) ease-in-out infinite;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: calc(var(--time) * 0.25);
+}
+.loader span:nth-child(3) {
+  animation-delay: calc(var(--time) * 0.5);
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+}

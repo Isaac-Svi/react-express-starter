@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 99vh;
+}
+.App {
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+.App a {
+  color: steelblue;
+}
