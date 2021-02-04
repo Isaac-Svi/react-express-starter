@@ -8,9 +8,9 @@ An NPM package will be made in the future. For now, you can just clone the repo 
 
 Rename the project folder to a name of your choice.
 
-cd into the project folder, then run the following code to install dependencies:
+cd into the project folder, then run the following to install dependencies:
 
-    npm i && cd client && npm i
+    npm run setup
 
 Finally, just run the following code to get started:
 
