@@ -13,8 +13,6 @@ const { PORT, NODE_ENV } = process.env;
 // app middleware
 app.use(
   cors({
-    // this is only needed for when calling these routes from frontend
-    // unnecessary with postman, because it's all same domain
     origin: 'http://localhost:3000',
     credentials: true,
   })

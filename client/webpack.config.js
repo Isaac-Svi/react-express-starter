@@ -6,9 +6,7 @@ const {
 
 module.exports = {
   mode: 'development',
-  // this is what webpack will see first.  using __dirname, because only absolute paths are allowed
   entry: __dirname + '/src/index.js',
-  // this is how your dist folder will be constructed
   output: {
     path: __dirname + '/dist',
     filename: 'index.js',
