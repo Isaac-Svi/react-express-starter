@@ -10,4 +10,8 @@ Then install the dependencies:
 
     npm i && cd client && npm i
 
-Afterwards, just rename the project folder to the folder of your choice.
+Rename the project folder to the folder of your choice.
+
+Finally, just run the following code to get started:
+
+    npm run dev
