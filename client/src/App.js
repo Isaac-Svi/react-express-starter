@@ -23,7 +23,13 @@ const App = () => {
       </div>
       <div className='details'>
         <p>
-          Checkout the <a href=''>Github Repo</a>
+          Checkout the{' '}
+          <a
+            href='https://github.com/Isaac-Svi/react-express-starter'
+            target='_blank'
+          >
+            Github Repo
+          </a>
         </p>
         <p className='cp'>© Isaac Svi 2021</p>
       </div>
