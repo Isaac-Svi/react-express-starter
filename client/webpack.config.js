@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: __dirname + '/dist',
     filename: 'index.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -28,6 +29,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'src'),
     compress: true,
+    historyApiFallback: true,
     port: 3000,
     proxy: {
       [target]: host,
